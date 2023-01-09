@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "985261184057",
+    "firebase_url": "https://gh-passco.firebaseio.com",
+    "project_id": "gh-passco",
+    "storage_bucket": "gh-passco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985261184057:android:6e504cf53f18d391ac29e8",
+        "android_client_info": {
+          "package_name": "com.cedarweb.koyocco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985261184057-948pm597goi4su194mfcnkotqul0ss0j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cedarweb.koyocco",
+            "certificate_hash": "dc61247a83855e80ddb9b6e1c87825632d9bad65"
+          }
+        },
+        {
+          "client_id": "985261184057-itqmvjlf7aph3edhl2i3mepjrff39nhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfkG7yM2hU5BssjNb7zo4GeoKMDRUjL9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985261184057-itqmvjlf7aph3edhl2i3mepjrff39nhq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985261184057-s97lg0eaj54j01l21e2l4s0ebrsc843u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cedarweb.koyocco"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

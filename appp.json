@@ -1,0 +1,91 @@
+{
+  "expo": {
+    "name": "BreedersMall",
+    "slug": "No1_Pet_Marketplace",
+    "version": "1.1",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff",
+          "mode": "production"
+        }
+      ],
+      [
+        "expo-facebook",
+        {
+          "userTrackingPermission": false
+        }
+      ]
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "backgroundColor": "#ba9431",
+      "resizeMode": "contain"
+    },
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "usesAppleSignIn": true,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cedar.breeders",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to capture and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSLocationWhenInUseUsageDescription": "This app usages device location on listing information, Listing search Data and User information.",
+        "CFBundleAllowMixedLocalizations": true,
+        "UIBackgroundModes": ["remote-notification"]
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyBgubvdqPuGwivfTri9fjJSZgFl_UGW3i0"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.cedar.breeders",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBgubvdqPuGwivfTri9fjJSZgFl_UGW3i0"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fff"
+      },
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL",
+        "MEDIA_LIBRARY",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED"
+      ],
+      "versionCode": 10
+    },
+    "facebookScheme": "fb248887017031234",
+    "facebookAppId": "248887017031234",
+    "facebookDisplayName": "BreederMall",
+    "scheme": "breeds"
+  }
+}
