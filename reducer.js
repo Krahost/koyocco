@@ -26,7 +26,7 @@ export const initialState = {
   sBColor: COLORS.primary,
   config: {
     currency: {
-      id: "USD",
+      id: "GHS",
       symbol: "&#36;",
       position: "left", // position: "left" or "right"
       separator: {
@@ -35,7 +35,7 @@ export const initialState = {
       },
     },
     payment_currency: {
-      id: "USD",
+      id: "GHS",
       position: "right",
       separator: {
         decimal: ".",

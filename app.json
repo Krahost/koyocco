@@ -2,7 +2,7 @@
   "expo": {
     "name": "Koyocco",
     "slug": "koyocco",
-    "version": "1.0.0",
+    "version": "13.0.0",
     "plugins": [
       [
         "expo-document-picker",
@@ -64,7 +64,16 @@
         "NSLocationAlwaysUsageDescription": "Your App uses device location on listing information, Listing search Data and User information.",
         "NSMicrophoneUsageDescription": "Your App uses your microphone while taking video of your property for uploading in listing information.",
         "CFBundleAllowMixedLocalizations": true,
-        "UIBackgroundModes": ["remote-notification"]
+        "UIBackgroundModes": ["remote-notification"],
+        "SKAdNetworkItems": [
+          {
+            "SKAdNetworkIdentifier": "v9wttpbfk9.skadnetwork"
+          },
+          {
+            "SKAdNetworkIdentifier": "n38lu8286q.skadnetwork"
+          }
+        ],
+        "NSUserTrackingUsageDescription": "Your app wants to track you to collect IDFA to deliver personalised ads."
       },
       "config": {
         "googleMapsApiKey": "AIzaSyCs0TJfggT2wARP0noZInG_2bLSVyGX5GE"
@@ -98,11 +107,16 @@
         "ACCESS_FINE_LOCATION",
         "RECEIVE_BOOT_COMPLETED"
       ],
-      "versionCode": 1
+      "versionCode": 13
     },
     "scheme": "myapp",
     "facebookScheme": "fb98787676565",
     "facebookAppId": "98787676565",
-    "facebookDisplayName": "YourFacebookApp"
+    "facebookDisplayName": "YourFacebookApp",
+    "extra": {
+      "eas": {
+        "projectId": "963b6dac-4778-490f-aa06-994c91d11ffa"
+      }
+    }
   }
 }
