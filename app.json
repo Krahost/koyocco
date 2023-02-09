@@ -2,7 +2,7 @@
   "expo": {
     "name": "Koyocco",
     "slug": "koyocco",
-    "version": "13.1.0",
+    "version": "14.0.0",
     "plugins": [
       [
         "expo-document-picker",
@@ -107,7 +107,7 @@
         "ACCESS_FINE_LOCATION",
         "RECEIVE_BOOT_COMPLETED"
       ],
-      "versionCode": 13.1
+      "versionCode": 14
     },
     "scheme": "myapp",
     "facebookScheme": "fb98787676565",
